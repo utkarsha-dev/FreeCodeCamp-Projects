@@ -1,0 +1,60 @@
+#main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #333333;
+    padding:10px;
+    background-color:#5CCCAD;
+}
+.titlehead{
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    color:#80766C;
+    margin-bottom:1rem;
+}
+#title{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color:#80766C;
+    margin-bottom:3rem;
+  
+}
+#img-div{
+    background:#FFEDD9;
+    text-align:center ;
+    padding:2rem;
+    vertical-align:center;
+
+}
+#image{
+    margin:4rem;
+    width:90%;
+    height: auto;
+    max-width: 1000px; /*centeringimage inside parent element*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#img-caption{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:2rem;
+}
+#tribute-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding:20px;
+
+}
+.end{
+    text-align: end;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tribute-link{
+    color:black;
+}
