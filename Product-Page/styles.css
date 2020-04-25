@@ -1,0 +1,108 @@
+#main{
+    background-color:#CDFFE0;
+    font-family: cursive;
+}
+#header{
+    background-color: blanchedalmond;
+    display:flex;
+    flex-direction: row;
+}
+#header-img{
+    height:10rem;
+    width:12rem;
+}
+.title-head{
+    margin:3rem 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    color:#B3A1AF;
+    font-weight:bolder;
+}
+#nav-bar{
+    padding:0px;
+    position: fixed;
+    top:0;
+    right:0;
+}
+nav li{
+    border:3px solid #B3A886;
+    width:10rem;
+    height:3.7rem;
+    background-color:#B3A886;
+    
+    padding:0rem;
+    display:inline-block;
+    text-align: center;
+
+  }
+.nav-link{
+    margin:1px;
+}
+nav a{
+    border:3px dotted white;
+    font-size:1rem;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    padding: 1rem;
+  }
+nav a:hover{
+    background-color: whitesmoke;
+    display:block;
+}
+.connect{
+    font-size:25px;
+    padding-left:3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#form{
+    padding-left:3rem;
+    font-size:2rem;
+}
+#email{
+    font-size:1.5rem;
+}
+#submit{
+    font-size:1.5rem;
+}
+#home{
+    background-color:#C5FFEB;
+    font-size: 25px;
+    margin:2rem;
+    text-align: justify;
+}
+.illustration{
+    color:#3363EB;
+}
+#about-us{
+    background-color:#C5FFEB;
+    font-size: 25px;
+    margin:2rem;
+    text-align: justify;
+}
+.about{
+    color:#3363EB;
+}
+#our-work{
+    background-color:#C5FFEB;
+    font-size: 25px;
+    margin:2rem;
+    text-align: justify;
+}
+.work{
+    color:#3363EB;
+}
+
+@media (max-width: 568px text-align:center) {
+  #video{
+        margin-left:15rem;
+  }
+}
+    
+#footer{
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 5px;
+}
