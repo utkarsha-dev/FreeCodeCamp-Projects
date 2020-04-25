@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+    <h1 id="title">
+        Survey Form 
+    </h1>
+    <p id="description">
+        <em>What skills do you have?</em>
+    </p>
+    <form id="survey-form">
+        <label id="name-label" name="name" for="name">Name</label><br>
+        <input id="name" type="text" placeholder="Enter your name" required><br>
+        <label id="email-label" for="email">E-mail</label><br>
+        <input id="email" type="email" placeholder="Enter your e-mail" required name="email" pattern="@"><br>
+        <label id="number-label" for="number">Age</label><br>
+        <input id="number" type="number" placeholder="Age" min=1 max=30 required><br>
+        <div>
+            <label id="dropdown-label" for="dropdown">Profession:</label><br>
+            <select name="dropdown" id="dropdown">
+                <option value="student">Student</option>
+                <option value="mentor">Mentor</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+        <div>
+            <p>Specify your gender:</p>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+        </div>
+        <div>
+            <p>What skills do you have?</p>
+            <input type="checkbox" id="webdev" name="skills" value="webdev">
+            <label for="webdev">Web Development</label><br>
+            <input type="checkbox" id="java" name="skills" value="Java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="python" name="skills" value="python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="cpp" name="skills" value="cpp">
+            <label for="cpp">C++</label><br>
+
+        </div>
+        <div>
+            <p>If you want to give any suggestions,please enter in the textbox below:</p>
+            <textarea placeholder="Enter your feedback"></textarea>
+
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+
+    </form>
+  
+</body>
+</html>
